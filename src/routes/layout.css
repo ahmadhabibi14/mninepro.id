@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-mnine: #F58634;
+  --color-mnine-2: #E0680F;
+}
+
+*::selection {
+  @apply bg-mnine text-white; 
+}
+
+#nprogress {
+  pointer-events: none;
+}
+#nprogress .bar {
+  @apply bg-mnine! fixed! z-50! top-0! left-0! w-full! h-[3px]!;
+}
