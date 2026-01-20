@@ -8,6 +8,16 @@
 	import { browser } from '$app/environment';
 	import { UNDER_CONSTRUCTION } from '@/states/setting';
 	import Head from '@/partials/Head.svelte';
+	import '@fontsource-variable/orbitron';
+	import '@fontsource/poppins/100.css';
+	import '@fontsource/poppins/200.css';
+	import '@fontsource/poppins/300.css';
+	import '@fontsource/poppins/400.css';
+	import '@fontsource/poppins/500.css';
+	import '@fontsource/poppins/600.css';
+	import '@fontsource/poppins/700.css';
+	import '@fontsource/poppins/800.css';
+	import '@fontsource/poppins/900.css';
 	
 	let { children } = $props();
 

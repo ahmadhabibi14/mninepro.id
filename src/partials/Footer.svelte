@@ -71,7 +71,7 @@
           </div>
           <div class="flex flex-row gap-2 items-center">
             <Icon size="20" className="text-mnine fill-mnine" src={RiDevicePhoneLine} />
-            <p>+62 821 46021 999</p>
+            <p>+62 821-46021-999</p>
           </div>
         </div>
       </div>
