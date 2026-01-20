@@ -34,7 +34,7 @@
   });
 </script>
 
-{#if UNDER_CONSTRUCTION}
+{#if $UNDER_CONSTRUCTION}
 	<Head
 		title="MNine Production | Under Construction"
 	/>
