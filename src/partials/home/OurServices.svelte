@@ -45,7 +45,7 @@
       name: 'Barikade'
     },
     {
-      img: '/img/services/rowing.webp',
+      img: '/img/services/rowing.jpg',
       name: 'Rowing'
     },
     {
@@ -77,7 +77,7 @@
           />
         </div>
         <div class="flex justify-center items-center font-orbitron">
-          <h5 class="text-center text-lg font-medium">{s.name}</h5>
+          <h3 class="text-center text-lg font-medium">{s.name}</h3>
         </div>
       </div>
       {/each}

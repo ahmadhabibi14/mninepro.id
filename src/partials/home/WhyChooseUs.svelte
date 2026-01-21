@@ -15,7 +15,7 @@
           size="45"
           className="fill-blue-600"
         />
-        <h4 class="text-xl font-bold font-orbitron">Sumber Daya Berkualitas</h4>
+        <h3 class="text-xl font-bold font-orbitron">Sumber Daya Berkualitas</h3>
         <p class="">Tim kami terdiri dari SDM yang handal dan telah melewati berbagai proses seleksi.
 Pelatihan ini bertujuan demi memberikan kualitas dan kemampuan kepada tim
 dalam menjalankan tugasnya.</p>
@@ -27,7 +27,7 @@ dalam menjalankan tugasnya.</p>
           size="45"
           className="fill-mnine"
         />
-        <h4 class="text-xl font-bold font-orbitron">Kolaborasi Dengan Mitra</h4>
+        <h3 class="text-xl font-bold font-orbitron">Kolaborasi Dengan Mitra</h3>
         <p class="">Kami bekerja sama dengan berbagai mitra
 yang kompeten dalam bidang ini.
 Mitra - mitra terpercaya kami sangat aware
@@ -41,7 +41,7 @@ sebuah project.</p>
           size="45"
           className="stroke-green-600"
         />
-        <h4 class="text-xl font-bold font-orbitron">Pelayanan Dengan Santun</h4>
+        <h3 class="text-xl font-bold font-orbitron">Pelayanan Dengan Santun</h3>
         <p class="">Keramahan dan sopan santun dalam
 menjalankan tugas adalah budaya yang kami
 junjung tinggi. Prioritas kami adalah memberikan pelayanan yang terbaik dan

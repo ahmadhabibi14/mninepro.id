@@ -16,20 +16,35 @@
           class="w-32 h-auto"
         />
         <p class="text-lg text-white italic">"Satisfaction and Responsibility is Our Guarantee"</p>
-        <div class="flex flex-row gap-1.5 items-center">
-          <a href="https://www.instagram.com/mnineproduction" target="_blank" class="flex justify-center items-center p-2 bg-linear-to-bl from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white rounded-full">
+        <div class="flex flex-row gap-1.5 items-center" role="navigation">
+          <a
+            aria-label="Instagram"
+            href="https://www.instagram.com/mnineproduction"
+            target="_blank"
+            class="flex justify-center items-center p-2 bg-linear-to-bl from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white rounded-full"
+          >
             <Icon
               src={RiLogosInstagramLine}
               size="22"
             />
           </a>
-          <a href="https://www.facebook.com/mnine.audiopro" target="_blank" class="flex justify-center items-center p-2 bg-linear-to-b from-[#00c6ff] to-[#0072ff] text-white rounded-full">
+          <a
+            aria-label="Facebook"
+            href="https://www.facebook.com/mnine.audiopro"
+            target="_blank"
+            class="flex justify-center items-center p-2 bg-linear-to-b from-[#00c6ff] to-[#0072ff] text-white rounded-full"
+          >
             <Icon
               src={RiLogosFacebookCircleLine}
               size="22"
             />
           </a>
-          <a href="wa.me/6282146021999" target="_blank" class="flex justify-center items-center p-2 bg-linear-to-b from-[#25d366] to-[#2BB741] text-white rounded-full">
+          <a
+            aria-label="WhatsApp"
+            href="wa.me/6282146021999"
+            target="_blank"
+            class="flex justify-center items-center p-2 bg-linear-to-b from-[#25d366] to-[#2BB741] text-white rounded-full"
+          >
             <Icon
               src={RiLogosWhatsappLine}
               size="22"

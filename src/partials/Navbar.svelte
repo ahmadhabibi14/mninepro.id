@@ -91,7 +91,7 @@
     </nav>
     <a
       href={PathContact}
-      class="md:block hidden w-fit h-fit cursor-pointer py-2 px-5 rounded-full text-white bg-mnine hover:bg-mnine-2 text-sm"
+      class="md:block hidden w-fit h-fit cursor-pointer py-2 px-5 rounded-full text-[#1f1f1f] bg-mnine hover:bg-mnine-2 text-sm"
     >
       CONTACT US
     </a>
