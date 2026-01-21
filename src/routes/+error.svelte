@@ -13,11 +13,11 @@
 		<main class="flex flex-col left-0 right-0 h-full">
 			<div class="flex justify-center items-center h-full w-full">
 				<div class="flex flex-col gap-5 justify-center items-center h-full">
-					<h1 class="text-green-500 font-bold text-9xl">404</h1>
+					<h1 class="text-mnine font-bold text-9xl">404</h1>
 					<p class="text-2xl">Halaman tidak ditemukan</p>
 					<a
 						href="/"
-						class="py-2 px-5 bg-green-500 hover:bg-green-600 text-white rounded-xl flex flex-row gap-2 items-center justify-center"
+						class="py-2 px-5 bg-mnine hover:bg-mnine-2 text-white rounded-xl flex flex-row gap-2 items-center justify-center"
 					>
 						<span>Kembali ke beranda</span>
 						<Icon src={RiArrowsArrowRightLine} size="16" />
