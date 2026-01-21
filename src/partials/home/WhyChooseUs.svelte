@@ -6,7 +6,7 @@
 </script>
 <div class="container mx-auto my-14">
   <div class="flex flex-col gap-11">
-    <h2 class="text-5xl text-center font-bold font-orbitron">Why Choose Us</h2>
+    <h2 id="why-choose-us" class="text-5xl text-center font-bold font-orbitron">Why Choose Us</h2>
     <div class="grid grid-cols-3 gap-6">
       <div class="bg-slate-100 rounded-xl flex flex-col gap-3 px-5 py-4">
         <Icon

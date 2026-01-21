@@ -54,40 +54,40 @@
         />
       </a>
     </div>
-    <nav class="hidden md:flex flex-row gap-5 items-center justify-center w-fit font-semibold text-sm">
-        <a
-          href={PathHome}
-          class="w-fit h-fit hover:text-mnine cursor-pointer flex flex-col gap-1.5 justify-center items-center
-          {$CURRENT_PATH === PathHome ? 'text-mnine' : ''}"
-        >
-          <span>Beranda</span>
-          <span class="w-[70px] h-[3px] {$CURRENT_PATH === PathHome ? 'bg-mnine' : 'bg-transparent'}"></span>
-        </a>
-        <a
-          href={PathAbout}
-          class="w-fit h-fit hover:text-mnine cursor-pointer flex flex-col gap-1.5 justify-center items-center
-          {$CURRENT_PATH === PathAbout ? 'text-mnine' : ''}"
-        >
-          <span>Tentang</span>
-          <span class="w-[70px] h-[3px] {$CURRENT_PATH === PathAbout ? 'bg-mnine' : 'bg-transparent'}"></span>
-        </a>
-        <a
-          href={PathServices}
-          class="w-fit h-fit hover:text-mnine cursor-pointer flex flex-col gap-1.5 justify-center items-center
-          {$CURRENT_PATH === PathServices ? 'text-mnine' : ''}"
-        >
-          <span>Layanan</span>
-          <span class="w-[70px] h-[3px] {$CURRENT_PATH === PathServices ? 'bg-mnine' : 'bg-transparent'}"></span>
-        </a>
-        <a
-          href={PathEvents}
-          class="w-fit h-fit hover:text-mnine cursor-pointer flex flex-col gap-1.5 justify-center items-center
-          {$CURRENT_PATH === PathEvents ? 'text-mnine' : ''}"
-        >
-          <span>Event</span>
-          <span class="w-[70px] h-[3px] {$CURRENT_PATH === PathEvents ? 'bg-mnine' : 'bg-transparent'}"></span>
-        </a>
-      </nav>
+    <nav class="hidden md:flex flex-row gap-8 items-center justify-center w-fit font-semibold text-sm">
+      <a
+        href={PathHome}
+        class="w-fit h-fit hover:text-mnine cursor-pointer flex flex-col gap-1.5 justify-center items-center
+        {$CURRENT_PATH === PathHome ? 'text-mnine' : ''}"
+      >
+        <span>Beranda</span>
+        <span class="w-[70px] h-[3px] {$CURRENT_PATH === PathHome ? 'bg-mnine' : 'bg-transparent'}"></span>
+      </a>
+      <a
+        href={PathAbout}
+        class="w-fit h-fit hover:text-mnine cursor-pointer flex flex-col gap-1.5 justify-center items-center
+        {$CURRENT_PATH === PathAbout ? 'text-mnine' : ''}"
+      >
+        <span>Tentang</span>
+        <span class="w-[70px] h-[3px] {$CURRENT_PATH === PathAbout ? 'bg-mnine' : 'bg-transparent'}"></span>
+      </a>
+      <a
+        href={PathServices}
+        class="w-fit h-fit hover:text-mnine cursor-pointer flex flex-col gap-1.5 justify-center items-center
+        {$CURRENT_PATH === PathServices ? 'text-mnine' : ''}"
+      >
+        <span>Layanan</span>
+        <span class="w-[70px] h-[3px] {$CURRENT_PATH === PathServices ? 'bg-mnine' : 'bg-transparent'}"></span>
+      </a>
+      <a
+        href={PathEvents}
+        class="w-fit h-fit hover:text-mnine cursor-pointer flex flex-col gap-1.5 justify-center items-center
+        {$CURRENT_PATH === PathEvents ? 'text-mnine' : ''}"
+      >
+        <span>Event</span>
+        <span class="w-[70px] h-[3px] {$CURRENT_PATH === PathEvents ? 'bg-mnine' : 'bg-transparent'}"></span>
+      </a>
+    </nav>
     <a
       href={PathContact}
       class="md:block hidden w-fit h-fit cursor-pointer py-2 px-5 rounded-full text-white bg-mnine hover:bg-mnine-2 text-sm"

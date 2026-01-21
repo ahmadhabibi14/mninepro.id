@@ -1,7 +1,7 @@
 <div class="container mx-auto my-14">
   <div class="grid grid-cols-[auto_60%] gap-6">
     <div class="flex flex-col gap-7 h-auto">
-      <h2 class="text-5xl font-bold font-orbitron">About Us</h2>
+      <h2 id="about-us" class="text-5xl font-bold font-orbitron">About Us</h2>
       <p class="text-lg">
         Kami adalah perusahaan jasa Event Equipment yang telah berdiri sejak tahun 2010 dan berpengalaman dalam melayani berbagai event, baik berskala daerah maupun nasional. Kami menyediakan beragam kebutuhan Event Equipment dengan standar kualitas yang terjaga.
       </p>

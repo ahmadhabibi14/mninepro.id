@@ -17,19 +17,19 @@
         />
         <p class="text-lg text-white italic">"Satisfaction and Responsibility is Our Guarantee"</p>
         <div class="flex flex-row gap-1.5 items-center">
-          <a href="/" class="flex justify-center items-center p-2 bg-linear-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white rounded-full">
+          <a href="https://www.instagram.com/mnineproduction" target="_blank" class="flex justify-center items-center p-2 bg-linear-to-bl from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white rounded-full">
             <Icon
               src={RiLogosInstagramLine}
               size="22"
             />
           </a>
-          <a href="/" class="flex justify-center items-center p-2 bg-linear-to-b from-[#00c6ff] to-[#0072ff] text-white rounded-full">
+          <a href="https://www.facebook.com/mnine.audiopro" target="_blank" class="flex justify-center items-center p-2 bg-linear-to-b from-[#00c6ff] to-[#0072ff] text-white rounded-full">
             <Icon
               src={RiLogosFacebookCircleLine}
               size="22"
             />
           </a>
-          <a href="/" class="flex justify-center items-center p-2 bg-[#25d366] text-white rounded-full">
+          <a href="wa.me/6282146021999" target="_blank" class="flex justify-center items-center p-2 bg-linear-to-b from-[#25d366] to-[#2BB741] text-white rounded-full">
             <Icon
               src={RiLogosWhatsappLine}
               size="22"
@@ -77,8 +77,8 @@
         </div>
       </div>
     </div>
-    <div class="w-full border-t border-slate-400 pt-5">
-      <div class="text-white flex flex-row items-center gap-1.5">
+    <div class="w-full border-t border-slate-400 pt-8">
+      <div class="text-white flex flex-row items-center justify-center gap-1.5">
         <span class="text-mnine text-lg">&copy;</span>
         <p>{year} CV. Media Sembilan. All Rights Reserved</p>
       </div>

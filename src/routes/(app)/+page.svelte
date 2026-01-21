@@ -2,6 +2,8 @@
   import Head from "@/partials/Head.svelte";
 	import AboutUs from "@/partials/home/AboutUs.svelte";
 	import Jumbotron from "@/partials/home/Jumbotron.svelte";
+	import OurServices from "@/partials/home/OurServices.svelte";
+	import VIsiMisi from "@/partials/home/VIsiMisi.svelte";
 	import WhyChooseUs from "@/partials/home/WhyChooseUs.svelte";
 </script>
 
@@ -11,4 +13,6 @@
   <Jumbotron />
   <AboutUs />
   <WhyChooseUs />
+  <OurServices />
+  <VIsiMisi />
 </div>
