@@ -8,7 +8,7 @@
 
 <footer class="bg-black text-slate-400 flex flex-col py-8 px-6">
   <div class="container mx-auto flex flex-col gap-5">
-    <div class="w-full h-fit grid grid-cols-[3fr_1fr_1fr_2fr]">
+    <div class="w-full h-fit md:grid md:grid-cols-[3fr_1fr_1fr_2fr] flex flex-col gap-4">
       <div class="flex flex-col gap-4">
         <img
           src="/icons/base.png"
@@ -62,17 +62,17 @@
       <div class="flex flex-col gap-3 mt-4">
         <h4 class="text-lg text-white font-semibold">Contact</h4>
         <div class="flex flex-col gap-1">
-          <div class="flex flex-row gap-2 items-center">
-            <Icon size="20" className="text-mnine fill-mnine" src={RiMapMapPinRangeLine} />
-            <p>Jl. Tarunajaya No.09 Ampenan, Mataram, NTB</p>
+          <div class="flex flex-row gap-2 md:items-center items-start">
+            <Icon size="20" className="text-mnine fill-mnine shrink-0" src={RiMapMapPinRangeLine} />
+            <p class="grow">Jl. Tarunajaya No.09 Ampenan, Mataram, NTB</p>
           </div>
           <a href="mailto:media9audiopro@gmail.com" class="flex flex-row gap-2 items-center">
-            <Icon size="20" className="text-mnine fill-mnine" src={RiBusinessMailLine} />
-            <p>media9audiopro@gmail.com</p>
+            <Icon size="20" className="text-mnine fill-mnine shrink-0" src={RiBusinessMailLine} />
+            <p class="grow">media9audiopro@gmail.com</p>
           </a>
           <a href="tel:+6282146021999" class="flex flex-row gap-2 items-center">
-            <Icon size="20" className="text-mnine fill-mnine" src={RiDevicePhoneLine} />
-            <p>+62 821-46021-999</p>
+            <Icon size="20" className="text-mnine fill-mnine shrink-0" src={RiDevicePhoneLine} />
+            <p class="grow">+62 821-46021-999</p>
           </a>
         </div>
       </div>
@@ -80,7 +80,7 @@
     <div class="w-full border-t border-slate-400 pt-8">
       <div class="text-white flex flex-row items-center justify-center gap-1.5">
         <span class="text-mnine text-lg">&copy;</span>
-        <p>{year} CV. Media Sembilan. All Rights Reserved</p>
+        <p class="">{year} CV. Media Sembilan</p>
       </div>
     </div>
   </div>

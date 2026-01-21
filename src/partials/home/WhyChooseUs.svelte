@@ -4,10 +4,11 @@
 	import { RiBusinessShakeHandsLine, RiSystemSettings4Line } from "svelte-icons-pack/ri";
 
 </script>
-<div class="container mx-auto my-14">
+
+<div class="md:container w-full px-5 md:px-0 mx-auto md:my-14 my-7">
   <div class="flex flex-col gap-11">
-    <h2 id="why-choose-us" class="text-5xl text-center font-bold font-orbitron">Why Choose Us</h2>
-    <div class="grid grid-cols-3 gap-6">
+    <h2 id="why-choose-us" class="md:text-5xl text-3xl text-center font-bold font-orbitron">Why Choose Us</h2>
+    <div class="grid grid-rows-3 md:grid-cols-3 gap-6">
       <div class="bg-slate-100 rounded-xl flex flex-col gap-3 px-5 py-4">
         <Icon
           src={RiSystemSettings4Line}

@@ -22,6 +22,7 @@
     { name: 'Beranda', link: PathHome },
     { name: 'Tentang', link: PathAbout },
     { name: 'Layanan', link: PathServices},
+    { name: 'Event', link: PathEvents },
     { name: 'Kontak', link: PathContact },
   ];
 </script>
@@ -96,11 +97,11 @@
     </a>
   </div>
   <aside
-    class="{$isShowMenu ? 'left-0' : '-left-[250px]'} duration-150 py-6 px-6 h-dvh w-[250px] bg-white rounded-r-xl
+    class="{$isShowMenu ? 'left-0' : '-left-[250px]'} duration-150 py-6 px-6 h-dvh w-[250px] bg-black text-slate-300 rounded-r-xl
     fixed z-50 top-0 bottom-0 flex flex-col gap-5">
     {#each navMenuMobile as nav}
       <a
-        class="hover:text-mnine {$CURRENT_PATH === nav.link ? 'text-mnine-2 bg-emerald-400/20 font-semibold' : ''} px-4 py-1 rounded-full w-fit"
+        class="hover:text-mnine {$CURRENT_PATH === nav.link ? 'text-mnine-2 border-mnine-2 font-semibold' : 'border-transparent'} px-4 pt-1 pb-2 w-fit border-b-2"
         href={nav.link}
         onclick={()=> $isShowMenu = false}
       >

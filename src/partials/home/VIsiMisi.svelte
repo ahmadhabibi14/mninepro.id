@@ -1,5 +1,5 @@
-<div class="container mx-auto my-14">
-  <div class="grid grid-cols-[1fr_auto_1fr] gap-7">
+<div class="md:container w-full px-5 md:px-0 mx-auto md:my-14 my-7">
+  <div class="md:grid md:grid-cols-[1fr_auto_1fr] md:gap-7 flex flex-col gap-4">
     <div class="flex flex-col gap-5 text-center">
       <h3 id="visi" class="text-3xl font-bold font-orbitron">Visi</h3>
       <p class="text-lg">Menerapkan prinsip berkarya, berintegritas,
