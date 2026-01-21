@@ -13,7 +13,7 @@ export const GET: RequestHandler = async () => {
 }
 
 function generateSitemap(linkItems: SiteObj[]): string {
-  const siteURL: string = 'https://indonesiarespon.org';
+  const siteURL: string = 'https://mninepro.id';
   const sitemapEntries = linkItems
     .map((site: SiteObj) => `<url>
   <loc>${siteURL}${site.path}</loc>
