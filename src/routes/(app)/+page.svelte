@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { SiteName } from "@/lib/constant";
   import Head from "@/partials/Head.svelte";
 	import AboutUs from "@/partials/home/AboutUs.svelte";
 	import Jumbotron from "@/partials/home/Jumbotron.svelte";
@@ -7,7 +8,9 @@
 	import WhyChooseUs from "@/partials/home/WhyChooseUs.svelte";
 </script>
 
-<Head />
+<Head
+  title={SiteName+': Best Event Equipment in Lombok'}
+/>
 
 <div class="min-h-[900px] w-full flex flex-col gap-7 md:gap-10 pb-10">
   <Jumbotron />
