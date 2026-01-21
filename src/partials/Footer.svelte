@@ -1,11 +1,12 @@
 <script lang="ts">
+	import { PathAbout, PathContact, PathEvents, PathHome, PathServices } from "@/states/page";
   import { Icon } from "svelte-icons-pack";
 	import { RiBusinessMailLine, RiDevicePhoneLine, RiLogosFacebookCircleLine, RiLogosInstagramLine, RiLogosWhatsappLine, RiMapMapPinRangeLine } from "svelte-icons-pack/ri";
 
   const year: number = new Date().getFullYear();
 </script>
 
-<footer class="bg-black text-slate-300 flex flex-col py-8 px-6">
+<footer class="bg-black text-slate-400 flex flex-col py-8 px-6">
   <div class="container mx-auto flex flex-col gap-5">
     <div class="w-full h-fit grid grid-cols-[3fr_1fr_1fr_2fr]">
       <div class="flex flex-col gap-4">
@@ -14,7 +15,7 @@
           alt="MNine Pro"
           class="w-32 h-auto"
         />
-        <p class="text-lg">Satisfaction and Responsibility is Our Guarantee</p>
+        <p class="text-lg text-white italic">"Satisfaction and Responsibility is Our Guarantee"</p>
         <div class="flex flex-row gap-1.5 items-center">
           <a href="/" class="flex justify-center items-center p-2 bg-linear-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white rounded-full">
             <Icon
@@ -39,22 +40,22 @@
       <div class="flex flex-col gap-3 mt-4">
         <h4 class="text-lg text-white font-semibold">Company</h4>
         <nav class="flex flex-col gap-1">
-          <a href="/" class="hover:underline hover:text-mnine">Beranda</a>
-          <a href="/" class="hover:underline hover:text-mnine">Tentang</a>
-          <a href="/" class="hover:underline hover:text-mnine">Layanan</a>
-          <a href="/" class="hover:underline hover:text-mnine">Event</a>
-          <a href="/" class="hover:underline hover:text-mnine">Kontak Kami</a>
+          <a href={PathHome} class="hover:underline hover:text-mnine">Beranda</a>
+          <a href={PathAbout} class="hover:underline hover:text-mnine">Tentang</a>
+          <a href={PathServices} class="hover:underline hover:text-mnine">Layanan</a>
+          <a href={PathEvents} class="hover:underline hover:text-mnine">Event</a>
+          <a href={PathContact} class="hover:underline hover:text-mnine">Kontak Kami</a>
         </nav>
       </div>
       <div class="flex flex-col gap-3 mt-4">
         <h4 class="text-lg text-white font-semibold">Services</h4>
         <nav class="flex flex-col gap-1">
-          <a href="/" class="hover:underline hover:text-mnine">Sound System</a>
-          <a href="/" class="hover:underline hover:text-mnine">Band Equipment</a>
-          <a href="/" class="hover:underline hover:text-mnine">Lighting</a>
-          <a href="/" class="hover:underline hover:text-mnine">Display & Multimedia</a>
-          <a href="/" class="hover:underline hover:text-mnine">Toilet</a>
-          <a href="/" class="hover:underline hover:text-mnine">Panggung</a>
+          <a href={PathServices+'#sound-system'} class="hover:underline hover:text-mnine">Sound System</a>
+          <a href={PathServices+'#band-equipment'} class="hover:underline hover:text-mnine">Band Equipment</a>
+          <a href={PathServices+'#lighting'} class="hover:underline hover:text-mnine">Lighting</a>
+          <a href={PathServices+'#display'} class="hover:underline hover:text-mnine">Display & Multimedia</a>
+          <a href={PathServices+'#toilet'} class="hover:underline hover:text-mnine">Toilet</a>
+          <a href={PathServices+'#panggung'} class="hover:underline hover:text-mnine">Panggung</a>
         </nav>
       </div>
 
@@ -65,18 +66,18 @@
             <Icon size="20" className="text-mnine fill-mnine" src={RiMapMapPinRangeLine} />
             <p>Jl. Tarunajaya No.09 Ampenan, Mataram, NTB</p>
           </div>
-          <div class="flex flex-row gap-2 items-center">
+          <a href="mailto:media9audiopro@gmail.com" class="flex flex-row gap-2 items-center">
             <Icon size="20" className="text-mnine fill-mnine" src={RiBusinessMailLine} />
             <p>media9audiopro@gmail.com</p>
-          </div>
-          <div class="flex flex-row gap-2 items-center">
+          </a>
+          <a href="tel:+6282146021999" class="flex flex-row gap-2 items-center">
             <Icon size="20" className="text-mnine fill-mnine" src={RiDevicePhoneLine} />
             <p>+62 821-46021-999</p>
-          </div>
+          </a>
         </div>
       </div>
     </div>
-    <div class="w-full border-t border-white pt-5">
+    <div class="w-full border-t border-slate-400 pt-5">
       <div class="text-white flex flex-row items-center gap-1.5">
         <span class="text-mnine text-lg">&copy;</span>
         <p>{year} CV. Media Sembilan. All Rights Reserved</p>

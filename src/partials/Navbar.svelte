@@ -32,7 +32,7 @@
   class="{$isShowMenu ? 'block' : 'hidden'} z-40 inset-0 bg-zinc-700/50 h-screen fixed">
 </button>
 
-<div id="top" class="top-0 z-99 fixed w-full h-24 flex flex-row items-center justify-center py-6 bg-black text-white/80">
+<div id="top" class="top-0 z-99 fixed w-full h-24 flex flex-row items-center justify-center py-6 bg-black text-slate-300">
   <div class="px-5 md:px-0 container flex flex-row items-center justify-between mx-auto">
     <div class="flex flex-row gap-3 items-center">
       <div class="flex md:hidden">
