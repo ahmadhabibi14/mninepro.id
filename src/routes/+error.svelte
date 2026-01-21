@@ -17,7 +17,7 @@
 					<p class="text-2xl">Halaman tidak ditemukan</p>
 					<a
 						href="/"
-						class="py-2 px-5 bg-green-500 hover:bg-green-600 text-white rounded-full flex flex-row gap-2 items-center justify-center"
+						class="py-2 px-5 bg-green-500 hover:bg-green-600 text-white rounded-xl flex flex-row gap-2 items-center justify-center"
 					>
 						<span>Kembali ke beranda</span>
 						<Icon src={RiArrowsArrowRightLine} size="16" />

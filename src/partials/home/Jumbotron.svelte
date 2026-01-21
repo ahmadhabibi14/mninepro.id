@@ -10,7 +10,7 @@
       <div class="md:w-1/2 w-full flex flex-col gap-6 px-5 md:px-0">
         <h1 class="text-white font-orbitron text-4xl md:text-7xl font-bold md:leading-20 leading-12">Event Equipment in Lombok</h1>
         <p class="text-base md:text-2xl text-slate-200 md:leading-9">Menyediakan Event Equipment yang berkualitas. Pengalaman kami di bidang ini menjadi jaminan bahwa event yang kami handle selalu kami jaga kualitas.</p>
-        <button class="cursor-pointer rounded-full bg-mnine hover:bg-mnine-2 py-3 px-8 text-[#1f1f1f] font-semibold w-fit">
+        <button class="cursor-pointer rounded-xl bg-mnine hover:bg-mnine-2 py-3 px-8 text-[#1f1f1f] font-semibold w-fit">
           CONTACT US
         </button>
       </div>
