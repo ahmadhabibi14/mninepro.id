@@ -12,6 +12,7 @@
   import { writable, type Writable } from 'svelte/store';
 	import { Icon } from 'svelte-icons-pack';
 	import { BsList } from 'svelte-icons-pack/bs';
+	import { RiSystemCloseFill } from 'svelte-icons-pack/ri';
 
   const isShowMenu: Writable<Boolean> = writable(false);
 
@@ -28,9 +29,18 @@
 </script>
 
 <button
-  aria-label="backdrop toggle menu"
+  aria-label="Backdrop"
   onclick={() => $isShowMenu = !$isShowMenu}
-  class="{$isShowMenu ? 'block' : 'hidden'} z-40 inset-0 bg-zinc-700/50 h-screen fixed">
+  class="{$isShowMenu ? 'block' : 'hidden'} z-100 inset-0 bg-slate-700/50 h-screen fixed">
+</button>
+
+<button
+  aria-label="Close menu"
+  title="Close"
+  onclick={() => $isShowMenu = !$isShowMenu}
+  class="{$isShowMenu ? 'block' : 'hidden'} cursor-pointer z-101 shadow-md right-6 top-6 fixed h-fit w-fit p-2 rounded-full bg-mnine text-[#1f1f1f]"
+>
+  <Icon src={RiSystemCloseFill} size="20"/>
 </button>
 
 <div id="top" class="top-0 z-99 fixed w-full h-24 flex flex-row items-center justify-center py-6 bg-black text-slate-300">
@@ -96,17 +106,18 @@
       CONTACT US
     </a>
   </div>
-  <aside
-    class="{$isShowMenu ? 'left-0' : '-left-[250px]'} duration-150 py-6 px-6 h-dvh w-[250px] bg-black text-slate-300 rounded-r-xl
-    fixed z-50 top-0 bottom-0 flex flex-col gap-5">
-    {#each navMenuMobile as nav}
-      <a
-        class="hover:text-mnine {$CURRENT_PATH === nav.link ? 'text-mnine-2 border-mnine-2 font-semibold' : 'border-transparent'} px-4 pt-1 pb-2 w-fit border-b-2"
-        href={nav.link}
-        onclick={()=> $isShowMenu = false}
-      >
-        {nav.name}
-      </a>
-    {/each}
-  </aside>
 </div>
+
+<aside
+  class="{$isShowMenu ? 'left-0' : '-left-[250px]'} duration-150 py-6 px-6 h-dvh w-[250px] bg-black text-slate-300 rounded-r-xl
+  fixed z-110 top-0 bottom-0 flex flex-col gap-5">
+  {#each navMenuMobile as nav}
+    <a
+      class="hover:text-mnine {$CURRENT_PATH === nav.link ? 'text-mnine-2 border-mnine-2 font-semibold' : 'border-transparent'} px-4 pt-1 pb-2 w-fit border-b-2"
+      href={nav.link}
+      onclick={()=> $isShowMenu = false}
+    >
+      {nav.name}
+    </a>
+  {/each}
+</aside>

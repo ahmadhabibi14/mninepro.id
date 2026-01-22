@@ -34,4 +34,15 @@
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:description" content={description} />
 	<meta name="twitter:image" content={imageUrl} />
+
+	<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "MNine Production",
+    "url": "https://mninepro.id",
+    "description": "Jasa Rental Sound System, Lighting, LED Vidiotron, Panggung Stage, Sarnavil, Roders",
+    "image": "https://mninepro.id/img/preview.jpg"
+  }
+  </script>
 </svelte:head>
