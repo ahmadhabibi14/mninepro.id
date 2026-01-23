@@ -41,7 +41,7 @@
           </a>
           <a
             aria-label="WhatsApp"
-            href="wa.me/6282146021999"
+            href="https://wa.me/6282146021999"
             target="_blank"
             class="flex justify-center items-center p-2 bg-linear-to-b from-[#25d366] to-[#2BB741] text-white rounded-full"
           >
