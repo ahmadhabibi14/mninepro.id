@@ -46,7 +46,7 @@
         </div>
         <div class="w-full h-auto overflow-hidden rounded-xl">
           <img
-            src="/img/sound-system-2.jpg"
+            src="/img/sound-system-2.webp"
             alt="Concerts"
             class="w-full h-full object-cover"
           />

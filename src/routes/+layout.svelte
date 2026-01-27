@@ -54,7 +54,7 @@
 		<main class="flex flex-col left-0 right-0 h-full mx-5">
 			<div class="flex flex-col gap-5 justify-center items-center h-full w-full">
 				<img
-					src="/img/allen_heath_sq_6.jpg"
+					src="/img/allen_heath_sq_6.webp"
 					alt="Allen & Heath SQ-6"
 					class="w-full md:w-96 h-auto"
 				/>

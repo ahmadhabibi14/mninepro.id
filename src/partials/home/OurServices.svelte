@@ -1,15 +1,15 @@
 <script lang="ts">
   const services: {img: string; name: string}[] = [
     {
-      img: '/img/services/sound-system.png',
+      img: '/img/services/sound-system.webp',
       name: 'Sound System'
     },
     {
-      img: '/img/services/band-equipment.jpg',
+      img: '/img/services/band-equipment.webp',
       name: 'Band Equipment'
     },
     {
-      img: '/img/services/lighting.png',
+      img: '/img/services/lighting.webp',
       name: 'Lighting'
     },
     {
@@ -17,27 +17,27 @@
       name: 'LED Screen'
     },
     {
-      img: '/img/services/display-multimedia.jpg',
+      img: '/img/services/display-multimedia.webp',
       name: 'Display & Multimedia'
     },
     {
-      img: '/img/services/genset.jpg',
+      img: '/img/services/genset.webp',
       name: 'Genset'
     },
     {
-      img: '/img/services/ac.jpg',
+      img: '/img/services/ac.webp',
       name: 'AC'
     },
     {
-      img: '/img/services/tenda.jpg',
+      img: '/img/services/tenda.webp',
       name: 'Tenda'
     },
     {
-      img: '/img/services/toilet.png',
+      img: '/img/services/toilet.webp',
       name: 'Toilet'
     },
     {
-      img: '/img/services/panggung.jpg',
+      img: '/img/services/panggung.webp',
       name: 'Panggung'
     },
     {
@@ -45,7 +45,7 @@
       name: 'Barikade'
     },
     {
-      img: '/img/services/rowing.jpg',
+      img: '/img/services/rowing.webp',
       name: 'Rowing'
     },
     {
@@ -56,7 +56,7 @@
 
   function handleImgSrcError(event: any) {
     event.target.onerror = null;
-    event.target.src = '/img/placeholder-service.png';
+    event.target.src = '/img/placeholder.webp';
   }
 </script>
 

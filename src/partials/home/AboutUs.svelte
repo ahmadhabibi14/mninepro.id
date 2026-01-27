@@ -12,7 +12,7 @@
     <div class="md:grid md:grid-cols-2 flex flex-col gap-6">
       <div class="w-full h-96 overflow-hidden rounded-xl md:block hidden">
         <img
-          src="/img/concert-2.jpg"
+          src="/img/concert-2.webp"
           alt="Concert (smaller)"
           class="w-full h-full object-cover"
         />
@@ -24,7 +24,7 @@
         </div>
         <div class="w-full h-full overflow-hidden rounded-xl">
           <img
-            src="/img/sound-system.jpg"
+            src="/img/sound-system.webp"
             alt="Sound System"
             class="w-full h-full object-cover"
           />

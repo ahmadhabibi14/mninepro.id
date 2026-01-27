@@ -1,7 +1,7 @@
 <div class="relative min-h-[600px] md:min-h-[700px] z-1 bg-black" role="banner">
   <div class="absolute w-full h-full bg-linear-to-r from-black to-black/10 z-3"></div>
   <img
-    src="/img/concert-smaller.jpg"
+    src="/img/concert-jumbotron.webp"
     alt="Concert"
     class="absolute w-full h-full object-cover z-2 md:left-20 left-0"
   />
