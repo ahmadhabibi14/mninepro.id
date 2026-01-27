@@ -4,6 +4,7 @@
     src="/img/concert-jumbotron.webp"
     alt="Concert"
     class="absolute w-full h-full object-cover z-2 md:left-20 left-0"
+    fetchpriority="high"
   />
   <div class="absolute w-full h-full flex flex-col z-3 md:mt-32 justify-center md:justify-start">
     <div class="md:container mx-auto">
