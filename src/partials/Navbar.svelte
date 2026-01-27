@@ -5,9 +5,8 @@
     PathAbout,
     PathContact,
     PathServices,
-
-	PathEvents
-
+    PathEvents,
+    PathPortfolio
   } from '@/states/page';
   import { writable, type Writable } from 'svelte/store';
 	import { Icon } from 'svelte-icons-pack';
@@ -23,6 +22,7 @@
     { name: 'Beranda', link: PathHome },
     { name: 'Tentang', link: PathAbout },
     { name: 'Layanan', link: PathServices},
+    { name: 'Portofolio', link: PathPortfolio },
     { name: 'Event', link: PathEvents },
     { name: 'Kontak', link: PathContact },
   ];
@@ -59,7 +59,7 @@
       </div>
       <a href="/" class="w-fit h-fit">
         <img
-          src="/icons/logo-text.png"
+          src="/icons/logo-text-horizontal.png"
           alt="MNine Pro"
           class="h-12 w-auto"
         />
@@ -89,6 +89,14 @@
       >
         <span>Layanan</span>
         <span class="w-[70px] h-[3px] {$CURRENT_PATH === PathServices ? 'bg-mnine' : 'bg-transparent'}"></span>
+      </a>
+      <a
+        href={PathPortfolio}
+        class="w-fit h-fit hover:text-mnine cursor-pointer flex flex-col gap-1.5 justify-center items-center
+        {$CURRENT_PATH === PathPortfolio ? 'text-mnine' : ''}"
+      >
+        <span>Portofolio</span>
+        <span class="w-[70px] h-[3px] {$CURRENT_PATH === PathPortfolio ? 'bg-mnine' : 'bg-transparent'}"></span>
       </a>
       <a
         href={PathEvents}
