@@ -17,6 +17,7 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge" />
 	<meta name="author" content={author} />
 	<meta name="description" content={description} />
+	<meta name="referrer" content="no-referrer-when-downgrade" />
 
 	<meta property="og:site_name" content={title} />
 	<meta property="og:title" content={title} />
@@ -31,16 +32,25 @@
 	<meta property="og:image:width" content={imgWidth} />
 	<meta property="og:image:height" content={imgHeight} />
 	<meta property="og:image:alt" content={title} />
+	<meta property="og:see_also" content="https://www.facebook.com/mnine.audiopro" />
+	<meta property="og:see_also" content="https://www.instagram.com/mnineproduction"/>
+
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:description" content={description} />
 	<meta name="twitter:image" content={imageUrl} />
+	<meta name="twitter:image:width" content={imgWidth} />
+  <meta name="twitter:image:height" content={imgHeight} />
 
 	<meta name="DC.title" content="Geo Tag Generator" />
 	<meta name="geo.region" content="ID-NB" />
 	<meta name="geo.placename" content="Lombok, Nusa Tenggara Barat" />
 	<meta name="geo.position" content="-8.581109, 116.085747" />
 	<meta name="ICBM" content="-8.581109, 116.085747" />
+
+	<link href={SiteBaseUrl} rel="canonical" />
+  <link href={SiteBaseUrl} rel="home" />
+	<link type="text/plain" href="{SiteBaseUrl}/humans.txt" rel="author" />
 
 	<script type="application/ld+json">
 		{

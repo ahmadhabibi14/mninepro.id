@@ -1,0 +1,41 @@
+import type { RequestHandler } from "@sveltejs/kit"
+
+export const GET: RequestHandler = async () => {
+  const content: string = `
+/* TEAM */
+Creator: Ahmad Rizky Nusantara Habibi
+Role: Backend Engineer, Full-Stack Developer & DevOps
+Site: https://habi14.pages.dev
+Location: Mataram, Indonesia
+Twitter: @ahmadh4bibi14
+
+/* COMPANY */
+Company: MNine Production
+Industry: Event Equipment Rental
+Services: Sound System, Lighting, LED Videotron, Stage & Event Setup
+Website: https://mninepro.id
+Location: Mataram, Indonesia
+
+/* TECHNOLOGY */
+Frontend: SvelteKit, TailwindCSS, HTML5, CSS3, JavaScript, TypeScript
+Backend: Node.js
+Hosting: Cloudflare Pages
+SEO: Structured Data (JSON-LD), Local SEO
+Version Control: Git
+
+/* SITE */
+Standards: HTML5, CSS3
+Components: SvelteKit, TailwindCSS, JavaScript, TypeScript
+
+/* THANKS */
+Inspiration: Open Web Community
+Tools: Cloudflare, Google Search Central, Lighthouse, Schema.org
+
+/* NOTE */
+Built with care for performance, accessibility, and humans.
+`
+
+  return new Response(content, {
+    headers: { 'Content-Type': 'text/plain' }
+  })
+}
