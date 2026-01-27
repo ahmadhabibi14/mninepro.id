@@ -59,7 +59,7 @@
       </div>
       <a href="/" class="w-fit h-fit">
         <img
-          src="/icons/logo-text-horizontal.png"
+          src="/icons/logo-text.png"
           alt="MNine Pro"
           class="h-12 w-auto"
         />
