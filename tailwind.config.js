@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        orbitron: ['Orbitron Variable', 'sans-serif'],
+        orbitron: ['Orbitron Variable', 'Helvetica', 'Arial', 'sans-serif'],
+        poppins: ['Poppins', 'Helvetica', 'Arial', 'sans-serif'],
       },
     },
   },

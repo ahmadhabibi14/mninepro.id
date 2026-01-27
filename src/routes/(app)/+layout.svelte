@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Navbar from '@/partials/Navbar.svelte';
 	import Footer from '@/partials/Footer.svelte';
+	import WhatsappButton from '@/partials/WhatsappButton.svelte';
 	
 	let { children } = $props();
 </script>
@@ -11,6 +12,7 @@
 		<main class="flex flex-col left-0 right-0 h-auto">
 			{@render children()}
 		</main>
+		<WhatsappButton />
 		<Footer />
 	</div>
 </div>

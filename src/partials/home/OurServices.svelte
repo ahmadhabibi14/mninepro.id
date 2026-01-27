@@ -62,7 +62,7 @@
 
 <div class="w-full px-5 md:px-0 mx-auto md:my-14 my-7">
   <div class="flex flex-col gap-11">
-    <h2 id="our-services" class="md:text-5xl text-3xl text-center font-bold font-orbitron">
+    <h2 id="our-services" class="md:text-5xl text-3xl text-center font-bold font-poppins">
       Our Services
     </h2>
     <div class="flex flex-wrap gap-6 justify-center-safe items-center">
@@ -76,7 +76,7 @@
             class="w-full h-full object-cover hover:scale-110 transition-all duration-300 ease-in-out"
           />
         </div>
-        <div class="flex justify-center items-center font-orbitron">
+        <div class="flex justify-center items-center font-poppins">
           <h3 class="text-center text-lg font-medium">{s.name}</h3>
         </div>
       </div>

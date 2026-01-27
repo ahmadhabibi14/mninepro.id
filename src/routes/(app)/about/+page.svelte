@@ -20,7 +20,7 @@
     <div class="absolute w-full h-full flex flex-col z-3 md:mt-32 justify-center md:justify-start">
       <div class="md:container mx-auto">
         <div class="w-full flex flex-col text-center gap-6 px-5 md:px-0">
-          <h1 class="text-white font-orbitron leading-8 text-4xl md:text-7xl font-bold">Tentang Kami</h1>
+          <h1 class="text-white font-poppins leading-8 text-4xl md:text-7xl font-bold">Tentang Kami</h1>
         </div>
       </div>
     </div>
@@ -41,7 +41,7 @@
       </div>
       <div class="grid grid-rows-[auto_65%] gap-6">
         <div class="flex flex-col justify-center items-center bg-black text-white rounded-xl py-4 md:py-0">
-          <span class="text-2xl font-bold font-orbitron">15+ Tahun</span>
+          <span class="text-2xl font-bold font-poppins">15+ Tahun</span>
           <p>Pengalaman</p>
         </div>
         <div class="w-full h-auto overflow-hidden rounded-xl">

@@ -31,7 +31,7 @@
 <button
   aria-label="Backdrop"
   onclick={() => $isShowMenu = !$isShowMenu}
-  class="{$isShowMenu ? 'block' : 'hidden'} z-100 inset-0 bg-slate-700/50 h-screen fixed">
+  class="{$isShowMenu ? 'block' : 'hidden'} z-101 inset-0 bg-slate-700/50 h-screen fixed">
 </button>
 
 <button
@@ -59,9 +59,9 @@
       </div>
       <a href="/" class="w-fit h-fit">
         <img
-          src="/icons/base.png"
+          src="/icons/logo-text.png"
           alt="MNine Pro"
-          class="w-20 h-auto"
+          class="h-12 w-auto"
         />
       </a>
     </div>
