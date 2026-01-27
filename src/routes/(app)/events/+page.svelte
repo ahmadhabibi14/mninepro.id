@@ -1,11 +1,13 @@
 <script lang="ts">
 	import Head from "@/partials/Head.svelte";
+	import { PathEvents } from "@/states/page";
 
 
 </script>
 
 <Head
   title="Event"
+  path={PathEvents}
 />
 
 <div class="min-h-[900px] w-full flex flex-col gap-7 md:gap-10">

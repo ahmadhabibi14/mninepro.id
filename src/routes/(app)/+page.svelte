@@ -9,7 +9,7 @@
 </script>
 
 <Head
-  title={SiteName+': Best Event Equipment in Lombok'}
+  title="Jasa Event Equipment di Lombok | Rental Sound System & Stage - MNine Production"
 />
 
 <div class="min-h-[900px] w-full flex flex-col gap-7 md:gap-10 pb-10">

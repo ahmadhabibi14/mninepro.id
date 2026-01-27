@@ -17,6 +17,7 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge" />
 	<meta name="author" content={author} />
 	<meta name="description" content={description} />
+
 	<meta property="og:site_name" content={title} />
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
@@ -35,14 +36,20 @@
 	<meta name="twitter:description" content={description} />
 	<meta name="twitter:image" content={imageUrl} />
 
+	<meta name="DC.title" content="Geo Tag Generator" />
+	<meta name="geo.region" content="ID-NB" />
+	<meta name="geo.placename" content="Lombok, Nusa Tenggara Barat" />
+	<meta name="geo.position" content="-8.581109, 116.085747" />
+	<meta name="ICBM" content="-8.581109, 116.085747" />
+
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
-			"@type": "LocalBusiness",
+			"@type": ["LocalBusiness", "RentalBusiness"],
 			"@id": "https://mninepro.id/#localbusiness",
 			"name": "MNine Production",
 			"url": "https://mninepro.id",
-			"description": "Jasa rental event equipment di Lombok. Tersedia Sound system, Lighting, LED Vidiotron, Panggung Stage, Sarnavil, Roders, dan lain-lain",
+			"description": "Jasa event equipment di Lombok: rental sound system, lighting, genset, band equipment, rowing, LED videotron, panggung & setup event. Melayani event wedding, konser, dan corporate.",
 			"image": "https://mninepro.id/img/preview.jpg",
 			"telephone": "+6282146021999",
 			"priceRange": "$$",
@@ -95,6 +102,19 @@
 						}
 					}
 				]
+			},
+			"areaServed": {
+				"@type": "AdministrativeArea",
+				"name": "Lombok"
+			},
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "Jl. Tarunajaya No.9, Taman Sari",
+				"addressLocality": "Ampenan",
+				"addressSubregion": "Kota Mataram",
+				"addressRegion": "Nusa Tenggara Barat",
+				"postalCode": "83112",
+				"addressCountry": "ID"
 			}
 		}
 	</script>

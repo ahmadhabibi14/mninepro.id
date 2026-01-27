@@ -31,6 +31,11 @@ export const StaticPages: SiteObj[] = [
     lastModified: '2026-01-21T02:29:07.483Z'
   },
   {
+    path: '/portfolio',
+    priority: 'high',
+    changefreq: 'monthly'
+  },
+  {
     path: '/events',
     priority: 'high',
     changefreq: 'monthly'  

@@ -1,12 +1,12 @@
 <script lang="ts">
 	import CompanyTeamLegality from "@/partials/about/CompanyTeamLegality.svelte";
 	import Head from "@/partials/Head.svelte";
-
-
+	import { PathAbout } from "@/states/page";
 </script>
 
 <Head
   title="Tentang Kami"
+  path={PathAbout}
 />
 
 <div class="min-h-[900px] w-full flex flex-col gap-7 md:gap-10 pb-10">
