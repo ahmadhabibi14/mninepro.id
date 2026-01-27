@@ -36,69 +36,66 @@
 	<meta name="twitter:image" content={imageUrl} />
 
 	<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-		"@id": "https://mninepro.id/#localbusiness",
-    "name": "MNine Production",
-    "url": "https://mninepro.id",
-    "description": "Jasa rental event equipment di Lombok. Tersedia Sound system, Lighting, LED Vidiotron, Panggung Stage, Sarnavil, Roders, dan lain-lain",
-    "image": "https://mninepro.id/img/preview.jpg"
-		"telephone": "+6282146021999",
-		"priceRange": "$$",
-		"address": {
-			"@type": "PostalAddress",
-			"addressLocality": "Lombok",
-			"addressRegion": "Nusa Tenggara Barat",
-			"addressCountry": "ID"
-		},
-		"openingHoursSpecification": [
-			{
-				"@type": "OpeningHoursSpecification",
-				"dayOfWeek": [
-					"Monday",
-					"Tuesday",
-					"Wednesday",
-					"Thursday",
-					"Friday",
-					"Saturday",
-					"Sunday"
-				],
-				"opens": "07:00",
-				"closes": "21:00"
-			}
-		],
-		"sameAs": [
-			"https://www.instagram.com/mnineproduction",
-			"https://wa.me/6282146021999"
-		],
-		"hasOfferCatalog": {
-		"@type": "OfferCatalog",
-		"name": "Layanan Rental Event Equipment",
-		"itemListElement": [
-			{
-				"@type": "Offer",
-				"itemOffered": {
-					"@type": "Service",
-					"name": "Sound System Rental"
-				}
+		{
+			"@context": "https://schema.org",
+			"@type": "LocalBusiness",
+			"@id": "https://mninepro.id/#localbusiness",
+			"name": "MNine Production",
+			"url": "https://mninepro.id",
+			"description": "Jasa rental event equipment di Lombok. Tersedia Sound system, Lighting, LED Vidiotron, Panggung Stage, Sarnavil, Roders, dan lain-lain",
+			"image": "https://mninepro.id/img/preview.jpg",
+			"telephone": "+6282146021999",
+			"priceRange": "$$",
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Lombok",
+				"addressRegion": "Nusa Tenggara Barat",
+				"addressCountry": "ID"
 			},
-			{
-				"@type": "Offer",
-				"itemOffered": {
-					"@type": "Service",
-					"name": "Lighting & Stage Rental"
+			"openingHoursSpecification": [
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+						"Monday",
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
+						"Friday",
+						"Saturday",
+						"Sunday"
+					],
+					"opens": "07:00",
+					"closes": "21:00"
 				}
-			},
-			{
-				"@type": "Offer",
-				"itemOffered": {
-					"@type": "Service",
-					"name": "LED Videotron Rental"
-				}
+			],
+			"sameAs": ["https://www.instagram.com/mnineproduction", "https://wa.me/6282146021999"],
+			"hasOfferCatalog": {
+				"@type": "OfferCatalog",
+				"name": "Layanan Rental Event Equipment",
+				"itemListElement": [
+					{
+						"@type": "Offer",
+						"itemOffered": {
+							"@type": "Service",
+							"name": "Sound System Rental"
+						}
+					},
+					{
+						"@type": "Offer",
+						"itemOffered": {
+							"@type": "Service",
+							"name": "Lighting & Stage Rental"
+						}
+					},
+					{
+						"@type": "Offer",
+						"itemOffered": {
+							"@type": "Service",
+							"name": "LED Videotron Rental"
+						}
+					}
+				]
 			}
-		]
-	}
-  }
-  </script>
+		}
+	</script>
 </svelte:head>
