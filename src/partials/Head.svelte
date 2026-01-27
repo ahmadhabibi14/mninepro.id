@@ -55,8 +55,11 @@
 			"priceRange": "$$",
 			"address": {
 				"@type": "PostalAddress",
-				"addressLocality": "Lombok",
+				"streetAddress": "Jl. Tarunajaya No.9, Taman Sari",
+				"addressLocality": "Ampenan",
+				"addressSubregion": "Kota Mataram",
 				"addressRegion": "Nusa Tenggara Barat",
+				"postalCode": "83112",
 				"addressCountry": "ID"
 			},
 			"openingHoursSpecification": [
@@ -107,14 +110,10 @@
 				"@type": "AdministrativeArea",
 				"name": "Lombok"
 			},
-			"address": {
-				"@type": "PostalAddress",
-				"streetAddress": "Jl. Tarunajaya No.9, Taman Sari",
-				"addressLocality": "Ampenan",
-				"addressSubregion": "Kota Mataram",
-				"addressRegion": "Nusa Tenggara Barat",
-				"postalCode": "83112",
-				"addressCountry": "ID"
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "-8.581109",
+				"longitude": "116.085747"
 			}
 		}
 	</script>
