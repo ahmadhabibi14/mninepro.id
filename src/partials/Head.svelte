@@ -41,7 +41,7 @@
     "@type": "WebSite",
     "name": "MNine Production",
     "url": "https://mninepro.id",
-    "description": "Jasa Rental Sound System, Lighting, LED Vidiotron, Panggung Stage, Sarnavil, Roders",
+    "description": "Jasa rental event equipment di Lombok. Tersedia Sound system, Lighting, LED Vidiotron, Panggung Stage, Sarnavil, Roders, dan lain-lain",
     "image": "https://mninepro.id/img/preview.jpg"
   }
   </script>

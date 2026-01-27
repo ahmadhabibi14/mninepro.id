@@ -1,7 +1,7 @@
 <script lang="ts">
   const services: {img: string; name: string}[] = [
     {
-      img: '/img/services/sound-system.jpg',
+      img: '/img/services/sound-system.png',
       name: 'Sound System'
     },
     {
@@ -9,7 +9,7 @@
       name: 'Band Equipment'
     },
     {
-      img: '/img/services/lighting.jpg',
+      img: '/img/services/lighting.png',
       name: 'Lighting'
     },
     {
