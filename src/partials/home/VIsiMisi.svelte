@@ -1,4 +1,4 @@
-<div class="md:container w-full px-5 md:px-0 mx-auto md:my-14 my-7">
+<div class="container max-w-6xl w-full px-5 md:px-0 mx-auto md:my-14 my-7">
   <div class="md:grid md:grid-cols-[1fr_auto_1fr] md:gap-7 flex flex-col gap-4">
     <div class="flex flex-col gap-5 text-center">
       <h3 id="visi" class="text-3xl font-bold font-poppins">Visi</h3>

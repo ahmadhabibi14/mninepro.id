@@ -5,7 +5,7 @@
 
 </script>
 
-<div class="md:container w-full px-5 md:px-0 mx-auto md:my-14 my-7">
+<div class="container max-w-6xl w-full px-5 md:px-0 mx-auto md:my-14 my-7">
   <div class="flex flex-col gap-11">
     <h2 id="why-choose-us" class="md:text-5xl text-3xl text-center font-bold font-poppins">Why Choose Us</h2>
     <div class="grid grid-rows-3 md:grid-rows-1 md:grid-cols-3 gap-6">

@@ -7,7 +7,7 @@
 </script>
 
 <footer class="bg-black text-slate-400 flex flex-col py-8 px-6">
-  <div class="container mx-auto flex flex-col gap-5">
+  <div class="container max-w-6xl mx-auto flex flex-col gap-5">
     <div class="w-full h-fit md:grid md:grid-cols-[3fr_1fr_1fr_2fr] flex flex-col gap-4">
       <div class="flex flex-col gap-4">
         <img
