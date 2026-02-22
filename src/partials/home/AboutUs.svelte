@@ -1,4 +1,4 @@
-<div class="container max-w-6xl w-full px-5 md:px-0 mx-auto md:my-14 my-7">
+<div class="container max-w-6xl w-full px-4 md:px-0 mx-auto md:my-14 my-7">
   <div class="md:grid md:grid-cols-[auto_60%] gap-7 flex flex-col">
     <div class="flex flex-col md:gap-7 gap-4 h-auto">
       <h2 id="about-us" class="md:text-5xl text-3xl font-bold font-poppins">About Us</h2>

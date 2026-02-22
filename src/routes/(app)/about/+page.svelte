@@ -19,24 +19,20 @@
     />
     <div class="absolute w-full h-full flex flex-col z-3 md:mt-32 justify-center md:justify-start">
       <div class="md:container mx-auto">
-        <div class="w-full flex flex-col text-center gap-6 px-5 md:px-0">
+        <div class="w-full flex flex-col text-center gap-6 px-4 md:px-0">
           <h1 class="text-white font-poppins leading-8 text-4xl md:text-7xl font-bold">Tentang Kami</h1>
         </div>
       </div>
     </div>
   </div>
-  <div class="md:container w-full px-5 md:px-0 mx-auto md:my-14 my-7">
+  <div class="container max-w-6xl w-full px-4 md:px-0 mx-auto md:my-10 my-7">
     <div class="md:grid md:grid-cols-[auto_30%] gap-7 flex flex-col">
       <div class="flex flex-col md:gap-7 gap-4 h-auto">
-        <p class="text-lg">
+        <p class="text-base md:text-lg">
           Kami adalah perusahaan jasa Event Equipment yang telah berdiri sejak tahun 2010 dan berpengalaman dalam melayani berbagai event, baik berskala daerah maupun nasional. Kami menyediakan beragam kebutuhan Event Equipment dengan standar kualitas yang terjaga.
         </p>
-        <p class="text-lg">
+        <p class="text-base md:text-lg">
           Pengalaman panjang di bidang ini menjadi komitmen kami dalam memastikan setiap event yang kami tangani berjalan dengan kualitas terbaik. Kami selalu mengutamakan pelayanan profesional serta menjaga kepercayaan klien sebagai nilai utama dalam setiap kerja sama.
-        </p>
-        <p class="text-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam voluptatibus velit perferendis labore harum dolorem corrupti. Voluptates veniam adipisci odit architecto amet, nulla, facere laudantium provident dolore, nobis quisquam.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda vitae quae debitis pariatur nemo rerum facere. Quis cumque id, quia perspiciatis laborum error quidem impedit facilis ducimus obcaecati. Veniam, commodi.
         </p>
       </div>
       <div class="grid grid-rows-[auto_65%] gap-6">

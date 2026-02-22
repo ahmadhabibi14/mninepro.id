@@ -4,6 +4,7 @@
 	import AboutUs from "@/partials/home/AboutUs.svelte";
 	import Jumbotron from "@/partials/home/Jumbotron.svelte";
 	import OurServices from "@/partials/home/OurServices.svelte";
+	import Partners from "@/partials/home/Partners.svelte";
 	import VIsiMisi from "@/partials/home/VIsiMisi.svelte";
 	import WhyChooseUs from "@/partials/home/WhyChooseUs.svelte";
 </script>
@@ -18,4 +19,5 @@
   <WhyChooseUs />
   <OurServices />
   <VIsiMisi />
+  <Partners />
 </div>

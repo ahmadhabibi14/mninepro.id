@@ -5,11 +5,11 @@
 
 </script>
 
-<div class="container max-w-6xl w-full px-5 md:px-0 mx-auto md:my-14 my-7">
+<section class="container max-w-6xl w-full px-4 md:px-0 mx-auto md:my-14 my-7" id="why-choose-us" >
   <div class="flex flex-col gap-11">
-    <h2 id="why-choose-us" class="md:text-5xl text-3xl text-center font-bold font-poppins">Why Choose Us</h2>
+    <h2 class="md:text-5xl text-3xl text-center font-bold font-poppins">Why Choose Us</h2>
     <div class="grid grid-rows-3 md:grid-rows-1 md:grid-cols-3 gap-6">
-      <div class="bg-slate-100 rounded-xl flex flex-col gap-3 px-5 py-4">
+      <div class="bg-slate-100 rounded-xl flex flex-col gap-3 px-4 py-4">
         <Icon
           src={RiSystemSettings4Line}
           size="45"
@@ -21,7 +21,7 @@ Pelatihan ini bertujuan demi memberikan kualitas dan kemampuan kepada tim
 dalam menjalankan tugasnya.</p>
       </div>
 
-      <div class="bg-slate-100 rounded-xl flex flex-col gap-3 px-5 py-4">
+      <div class="bg-slate-100 rounded-xl flex flex-col gap-3 px-4 py-4">
         <Icon
           src={RiBusinessShakeHandsLine}
           size="45"
@@ -35,7 +35,7 @@ dan profesionalisme dalam menangani
 sebuah project.</p>
       </div>
 
-      <div class="bg-slate-100 rounded-xl flex flex-col gap-3 px-5 py-4">
+      <div class="bg-slate-100 rounded-xl flex flex-col gap-3 px-4 py-4">
         <Icon
           src={LuHandHeart}
           size="45"
@@ -49,4 +49,4 @@ melaksanakan tugas dengan penuh tanggung jawab.</p>
       </div>
     </div>
   </div>
-</div>
+</section>

@@ -22,7 +22,7 @@
   ]
 </script>
 
-<div class="md:container w-full px-5 md:px-0 mx-auto md:my-14 my-7">
+<div class="md:container w-full px-4 md:px-0 mx-auto md:my-14 my-7">
   <div class="md:grid md:grid-cols-2 gap-7 flex flex-col">
     <div class="flex md:flex-row flex-col gap-6 justify-evenly items-center">
       <h2 class="text-4xl font-poppins font-bold">Our Team</h2>

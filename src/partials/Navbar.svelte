@@ -11,7 +11,7 @@
   import { writable, type Writable } from 'svelte/store';
 	import { Icon } from 'svelte-icons-pack';
 	import { BsList } from 'svelte-icons-pack/bs';
-	import { RiSystemCloseFill } from 'svelte-icons-pack/ri';
+	import { RiArrowsArrowRightLine, RiSystemCloseFill, RiSystemSearchLine } from 'svelte-icons-pack/ri';
 
   const isShowMenu: Writable<Boolean> = writable(false);
 
@@ -43,8 +43,20 @@
   <Icon src={RiSystemCloseFill} size="20"/>
 </button>
 
-<div id="top" class="top-0 z-99 fixed w-full h-24 flex flex-row items-center justify-center py-6 bg-black text-slate-300">
-  <div class="px-5 md:px-0 container max-w-6xl flex flex-row items-center justify-between mx-auto">
+<div id="top" class="top-0 z-99 fixed w-full flex flex-col items-center justify-center bg-black text-white md:bg-white md:text-slate-900 shadow-lg">
+	<div class="hidden md:flex h-8 w-full bg-mnine">
+		<div class="container max-w-6xl mx-auto flex flex-row justify-between items-center text-sm text-white font-light">
+      <p>One Partner for All your Event Needs!</p>
+      <div class="flex flex-row items-center gap-2 italic">
+        <span>Explore in here</span>
+        <Icon
+          src={RiArrowsArrowRightLine}
+          size="18"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="h-16 px-4 md:px-0 container max-w-6xl flex flex-row items-center justify-between mx-auto gap-14">
     <div class="flex flex-row gap-3 items-center">
       <div class="flex md:hidden">
         <button
@@ -57,62 +69,66 @@
           />
         </button>
       </div>
-      <a href="/" class="w-fit h-fit">
+      <a href="/" class="w-fit h-16 flex justify-center items-center px-4 md:px-0 py-3">
+        <img
+          src="/icons/logo-text-dark.svg"
+          alt="MNine Pro"
+          class="h-full w-auto md:block hidden"
+        />
         <img
           src="/icons/logo-text.png"
           alt="MNine Pro"
-          class="h-12 w-auto"
+          class="h-full w-auto block md:hidden"
         />
       </a>
     </div>
-    <nav class="hidden md:flex flex-row gap-8 items-center justify-center w-fit font-semibold text-sm">
-      <a
-        href={PathHome}
+
+    <nav class="hidden md:flex flex-row gap-6 items-center justify-center w-fit text-sm">
+      <a href={PathHome}
         class="w-fit h-fit hover:text-mnine cursor-pointer flex flex-col gap-1.5 justify-center items-center
         {$CURRENT_PATH === PathHome ? 'text-mnine' : ''}"
-      >
-        <span>Beranda</span>
-        <span class="w-[70px] h-[3px] {$CURRENT_PATH === PathHome ? 'bg-mnine' : 'bg-transparent'}"></span>
-      </a>
-      <a
-        href={PathAbout}
+      >Beranda</a>
+      <a href={PathAbout}
         class="w-fit h-fit hover:text-mnine cursor-pointer flex flex-col gap-1.5 justify-center items-center
         {$CURRENT_PATH === PathAbout ? 'text-mnine' : ''}"
-      >
-        <span>Tentang</span>
-        <span class="w-[70px] h-[3px] {$CURRENT_PATH === PathAbout ? 'bg-mnine' : 'bg-transparent'}"></span>
-      </a>
+      >Tentang</a>
       <a
         href={PathServices}
         class="w-fit h-fit hover:text-mnine cursor-pointer flex flex-col gap-1.5 justify-center items-center
         {$CURRENT_PATH === PathServices ? 'text-mnine' : ''}"
-      >
-        <span>Layanan</span>
-        <span class="w-[70px] h-[3px] {$CURRENT_PATH === PathServices ? 'bg-mnine' : 'bg-transparent'}"></span>
-      </a>
+      >Layanan</a>
       <a
         href={PathPortfolio}
         class="w-fit h-fit hover:text-mnine cursor-pointer flex flex-col gap-1.5 justify-center items-center
         {$CURRENT_PATH === PathPortfolio ? 'text-mnine' : ''}"
-      >
-        <span>Portofolio</span>
-        <span class="w-[70px] h-[3px] {$CURRENT_PATH === PathPortfolio ? 'bg-mnine' : 'bg-transparent'}"></span>
-      </a>
+      >Portofolio</a>
       <a
         href={PathEvents}
         class="w-fit h-fit hover:text-mnine cursor-pointer flex flex-col gap-1.5 justify-center items-center
         {$CURRENT_PATH === PathEvents ? 'text-mnine' : ''}"
-      >
-        <span>Event</span>
-        <span class="w-[70px] h-[3px] {$CURRENT_PATH === PathEvents ? 'bg-mnine' : 'bg-transparent'}"></span>
-      </a>
+      >Event</a>
+      <a
+        href={PathContact}
+        class="w-fit h-fit hover:text-mnine cursor-pointer flex flex-col gap-1.5 justify-center items-center
+        {$CURRENT_PATH === PathContact ? 'text-mnine' : ''}"
+      >Contact Us</a>
     </nav>
-    <a
-      href={PathContact}
-      class="md:block hidden w-fit h-fit cursor-pointer py-2 px-5 rounded-xl text-[#1f1f1f] bg-mnine hover:bg-mnine-2 text-sm"
-    >
-      CONTACT US
-    </a>
+    <div class="hidden relative border border-slate-300 rounded-full
+      md:flex flex-row items-center gap-2
+      py-2.5 pl-5 pr-10 text-sm grow">
+      <input
+        type="text"
+        name="Search"
+        id="search"
+        placeholder="Search your event needs..."
+        class="focus:ring-0 focus:outline-none grow"
+      />
+      <Icon
+        src={RiSystemSearchLine}
+        size="15"
+        className="absolute right-4 w-fit h-fit"
+      />
+    </div>
   </div>
 </div>
 
