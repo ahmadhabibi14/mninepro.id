@@ -83,7 +83,7 @@
       </a>
     </div>
 
-    <nav class="hidden md:flex flex-row gap-6 items-center justify-center w-fit text-sm">
+    <nav class="hidden md:flex flex-row gap-7 items-center justify-center w-fit text-sm">
       <a href={PathHome}
         class="w-fit h-fit hover:text-mnine cursor-pointer flex flex-col gap-1.5 justify-center items-center
         {$CURRENT_PATH === PathHome ? 'text-mnine' : ''}"
@@ -106,7 +106,7 @@
         href={PathEvents}
         class="w-fit h-fit hover:text-mnine cursor-pointer flex flex-col gap-1.5 justify-center items-center
         {$CURRENT_PATH === PathEvents ? 'text-mnine' : ''}"
-      >Event</a>
+      >Previous Event</a>
       <a
         href={PathContact}
         class="w-fit h-fit hover:text-mnine cursor-pointer flex flex-col gap-1.5 justify-center items-center
