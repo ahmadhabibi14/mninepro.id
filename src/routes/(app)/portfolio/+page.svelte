@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Head from "@/partials/Head.svelte";
+	import Header from "@/partials/Header.svelte";
 	import { PathPortfolio } from "@/states/page";
 
 
@@ -11,5 +12,5 @@
 />
 
 <div class="min-h-[900px] w-full flex flex-col gap-7 md:gap-10">
-  Portofolio kami
+  <Header title="Portofolio" />
 </div>

@@ -25,7 +25,7 @@
 <div class="md:container w-full px-4 md:px-0 mx-auto md:my-14 my-7">
   <div class="md:grid md:grid-cols-2 gap-7 flex flex-col">
     <div class="flex md:flex-row flex-col gap-6 justify-evenly items-center">
-      <h2 class="text-4xl font-poppins font-bold">Our Team</h2>
+      <h2 class="text-4xl font-poppins font-bold pb-2 border-b-4 border-b-mnine">Our Team</h2>
       <div class="flex flex-col md:gap-4 gap-3 justify-center items-center">
         {#each organizationStructures as os, idx}
           <div class="bg-black rounded-xl py-3 px-14 text-white flex flex-col gap-1 justify-center items-center">

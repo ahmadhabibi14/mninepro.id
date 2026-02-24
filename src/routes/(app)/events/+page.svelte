@@ -1,8 +1,11 @@
 <script lang="ts">
-	import Head from "@/partials/Head.svelte";
+	import Image from "@/components/Image.svelte";
+import Head from "@/partials/Head.svelte";
+	import Header from "@/partials/Header.svelte";
 	import { PathEvents } from "@/states/page";
 	import { Icon } from "svelte-icons-pack";
 	import { RiArrowsArrowRightUpLine } from "svelte-icons-pack/ri";
+	import { TrOutlineBuildingCircus } from "svelte-icons-pack/tr";
 
   const events: {
     title: string;
@@ -32,40 +35,43 @@
 </script>
 
 <Head
-  title="Event"
+  title="Previous Event"
   path={PathEvents}
 />
 
 <div class="min-h-[900px] w-full flex flex-col gap-7 md:gap-10">
+  <Header title="Previous Event"/>
   <div class="container max-w-6xl mx-auto my-10 px-4 md:px-0 flex flex-col">
-    <header class="mt-16 mb-24">
-      <h1 class="text-4xl font-bold text-center">Previous Event</h1>
-    </header>
-    
     <section class="flex flex-col gap-7">
       {#each events as event}
       <div class="md:grid md:grid-cols-2 md:gap-8
         flex flex-col gap-5">
         <div class="grid grid-cols-2 grid-rows-2 gap-4">
           {#each event.images as image}
-            <div class="rounded-xl overflow-hidden group w-full h-44">
-              <img
-                src={image}
-                onerror={handleImgSrcError}
-                alt="w-full h-full object-cover group-hover:scale-110 transition-all duration-300 ease-in-out"
-              />
-            </div>
+            <Image
+              src={image}
+              alt={event.title}
+              classNameContainer="rounded-xl w-full h-44 group cursor-pointer"
+              classNameImg="object-cover group-hover:scale-110 ease-in-out"
+            />
           {/each}
         </div>
-        <div class="flex flex-col gap-4 justify-between">
+        <div class="flex flex-col gap-3 justify-between">
           <div class="flex w-fit justify-center items-center bg-mnine-2 text-white px-4 py-1 rounded-xl">
             <span>{event.partner}</span>
           </div>
           <h4 class="font-bold text-2xl text-mnine-2">{event.title}</h4>
-          <div class="flex flex-col gap-2">
+          <div class="flex flex-col gap-3">
             <p class="text-lg">{event.desc}</p>
-            <span>Venue: {event.venue}</span>
-            <button class="bg-mnine-2 text-white text-lg font-semibold py-2 px-10 rounded-xl w-fit
+            <div class="text-lg font-medium flex flex-row gap-2 items-center">
+              <Icon
+                src={TrOutlineBuildingCircus}
+                size="25"
+                className="shrink-0"
+              />
+              <span>Venue: {event.venue}</span>
+            </div>
+            <button class="bg-black hover:bg-black/80 text-white text-lg font-semibold py-2 px-10 rounded-xl w-fit
             flex flex-row gap-2 items-center justify-center
             cursor-pointer shadow-lg">
               <span>More Portfolio</span>

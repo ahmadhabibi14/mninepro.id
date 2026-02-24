@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Head from '@/partials/Head.svelte';
+	import Header from '@/partials/Header.svelte';
 	import { Icon, type IconType } from 'svelte-icons-pack';
 	import {
 		RiBusinessMailLine,
@@ -58,24 +59,9 @@
 <Head title="Kontak" path="/contact" />
 
 <div class="min-h-[900px] w-full flex flex-col">
-	<div class="relative min-h-[200px] md:min-h-[300px] z-1 bg-black" role="banner">
-		<div class="absolute w-full h-full bg-black/60 backdrop-blur-[2px] z-3"></div>
-		<img
-			src="/img/lighting-concert-confetti.png"
-			alt="Concert, pink confetti"
-			class="absolute w-full h-full object-cover z-2"
-		/>
-		<div class="absolute w-full h-full flex flex-col z-3 md:mt-32 justify-center md:justify-start">
-			<div class="md:container mx-auto">
-				<div class="w-full flex flex-col text-center gap-6 px-4 md:px-0">
-					<h1 class="text-white font-poppins leading-8 text-4xl md:text-7xl font-bold">
-						Kontak Kami
-					</h1>
-				</div>
-			</div>
-		</div>
-	</div>
-
+	<Header
+		title="Kontak Kami"
+	/>
 	<div class="container max-w-6xl mx-auto px-5 md:px-0 my-8">
 		<div class="flex flex-col md:grid md:grid-cols-[30%_1fr] gap-6">
 			<div class="flex flex-col gap-2 text-lg">
