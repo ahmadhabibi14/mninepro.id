@@ -1,5 +1,6 @@
 <script lang="ts">
-	import CompanyTeamLegality from "@/partials/about/CompanyTeamLegality.svelte";
+	import Image from "@/components/Image.svelte";
+import CompanyTeamLegality from "@/partials/about/CompanyTeamLegality.svelte";
 	import Head from "@/partials/Head.svelte";
 	import Header from "@/partials/Header.svelte";
 	import { PathAbout } from "@/states/page";
@@ -29,13 +30,11 @@
           <span class="text-2xl font-bold font-poppins">15+ Tahun</span>
           <p>Pengalaman</p>
         </div>
-        <div class="w-full h-auto overflow-hidden rounded-xl">
-          <img
-            src="/img/sound-system-2.webp"
-            alt="Concerts"
-            class="w-full h-full object-cover"
-          />
-        </div>
+        <Image
+          src="/img/sound-system-2.webp"
+          alt="Concerts"
+          classNameContainer="w-full h-auto rounded-xl overflow-hidden"
+        />
       </div>
     </div>
   </div>

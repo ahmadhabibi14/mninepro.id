@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Image from "@/components/Image.svelte";
+
 	const services: { img: string; name: string }[] = [
 		{
 			img: '/img/services/sound-system.webp',
@@ -70,14 +72,12 @@
 				<div
 					class="md:h-64 h-40 md:w-80 w-full grid md:grid-rows-[70%_1fr] grid-rows-[75%_1fr] rounded-xl border border-slate-300 overflow-hidden bg-slate-100"
 				>
-					<div class="w-full h-auto overflow-hidden">
-						<img
-							onerror={handleImgSrcError}
-							src={s.img}
-							alt={s.name}
-							class="w-full h-full object-cover hover:scale-110 transition-all duration-300 ease-in-out"
-						/>
-					</div>
+					<Image
+						src={s.img}
+						alt={s.name}
+						classNameContainer="w-full h-full overflow-hidden group"
+						classNameImg="group-hover:scale-110 ease-in-out"
+					/>
 					<div class="flex justify-center items-center font-poppins">
 						<h3 class="text-center text-lg font-medium">{s.name}</h3>
 					</div>

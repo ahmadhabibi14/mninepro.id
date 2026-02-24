@@ -1,3 +1,7 @@
+<script>
+	import Image from "@/components/Image.svelte";
+
+</script>
 <div class="container max-w-6xl w-full px-4 md:px-0 mx-auto md:my-14 my-7">
   <div class="md:grid md:grid-cols-[auto_60%] gap-7 flex flex-col">
     <div class="flex flex-col md:gap-7 gap-4 h-auto">
@@ -10,25 +14,21 @@
       </p>
     </div>
     <div class="md:grid md:grid-cols-2 flex flex-col gap-6">
-      <div class="w-full h-96 overflow-hidden rounded-xl md:block hidden">
-        <img
-          src="/img/concert-2.webp"
-          alt="Concert (smaller)"
-          class="w-full h-full object-cover"
-        />
-      </div>
+      <Image
+        src="/img/concert-2.webp"
+        alt="Concert (smaller)"
+        classNameContainer="w-full h-96 overflow-hidden rounded-xl md:block hidden"
+      />
       <div class="grid grid-rows-[auto_65%] gap-6">
         <div class="flex flex-col justify-center items-center bg-black text-white rounded-xl py-4 md:py-0">
           <span class="text-2xl font-bold font-poppins">15+ Tahun</span>
           <p>Pengalaman</p>
         </div>
-        <div class="w-full h-full overflow-hidden rounded-xl">
-          <img
-            src="/img/sound-system.webp"
-            alt="Sound System"
-            class="w-full h-full object-cover"
-          />
-        </div>
+        <Image
+          src="/img/sound-system.webp"
+          alt="Sound System"
+          classNameContainer="w-full h-full overflow-hidden rounded-xl"
+        />
       </div>
     </div>
   </div>
