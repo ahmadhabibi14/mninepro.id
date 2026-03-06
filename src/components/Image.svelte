@@ -49,7 +49,7 @@
 		<img
 			src="/img/placeholder.svg"
 			alt="Placeholder"
-			class="absolute inset-0 w-full h-full object-cover"
+			class="absolute inset-0 w-full h-full object-cover animate-pulse"
 		/>
 	{/if}
 
