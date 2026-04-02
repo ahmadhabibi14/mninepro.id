@@ -1,4 +1,6 @@
 <script lang="ts">
+	// @ts-nocheck
+	import { resolve } from '$app/paths';
 	import Head from '@/partials/Head.svelte';
 	import Header from '@/partials/Header.svelte';
 	import { Icon, type IconType } from 'svelte-icons-pack';
@@ -10,7 +12,7 @@
 		RiLogosWhatsappLine,
 		RiMapMapPinRangeLine
 	} from 'svelte-icons-pack/ri';
-	
+
 	const contacts: {
 		name: string;
 		content: string;
@@ -53,30 +55,24 @@
 			icon: RiLogosFacebookCircleLine,
 			link: 'https://www.facebook.com/mnine.audiopro'
 		}
-	]
+	];
 </script>
 
 <Head title="Kontak" path="/contact" />
 
 <div class="min-h-[900px] w-full flex flex-col">
-	<Header
-		title="Kontak Kami"
-	/>
+	<Header title="Kontak Kami" />
 	<div class="container max-w-6xl mx-auto px-5 md:px-0 my-8">
 		<div class="flex flex-col md:grid md:grid-cols-[30%_1fr] gap-6">
 			<div class="flex flex-col gap-2 text-lg">
-				{#each contacts as contact}
+				{#each contacts as contact (contact.name)}
 					<a
-						href={contact.link}
+						href={resolve(contact.link)}
 						aria-label={contact.name}
 						target="_blank"
 						class="cursor-pointer flex flex-row gap-2 items-start hover:underline hover:text-mnine"
 					>
-						<Icon
-							size="25"
-							className="text-mnine fill-mnine shrink-0"
-							src={contact.icon}
-						/>
+						<Icon size="25" className="text-mnine fill-mnine shrink-0" src={contact.icon} />
 						<p class="grow">{contact.content}</p>
 					</a>
 				{/each}

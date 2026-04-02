@@ -33,14 +33,14 @@
 	<meta property="og:image:height" content={imgHeight} />
 	<meta property="og:image:alt" content={title} />
 	<meta property="og:see_also" content="https://www.facebook.com/mnine.audiopro" />
-	<meta property="og:see_also" content="https://www.instagram.com/mnineproduction"/>
+	<meta property="og:see_also" content="https://www.instagram.com/mnineproduction" />
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:description" content={description} />
 	<meta name="twitter:image" content={imageUrl} />
 	<meta name="twitter:image:width" content={imgWidth} />
-  <meta name="twitter:image:height" content={imgHeight} />
+	<meta name="twitter:image:height" content={imgHeight} />
 
 	<meta name="DC.title" content="Geo Tag Generator" />
 	<meta name="geo.region" content="ID-NB" />
@@ -49,7 +49,7 @@
 	<meta name="ICBM" content="-8.581109, 116.085747" />
 
 	<link href={SiteBaseUrl} rel="canonical" />
-  <link href={SiteBaseUrl} rel="home" />
+	<link href={SiteBaseUrl} rel="home" />
 	<link type="text/plain" href="{SiteBaseUrl}/humans.txt" rel="author" />
 
 	<script type="application/ld+json">

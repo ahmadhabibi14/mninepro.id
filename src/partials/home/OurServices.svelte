@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Image from "@/components/Image.svelte";
+	import Image from '@/components/Image.svelte';
 
 	const services: { img: string; name: string }[] = [
 		{
@@ -55,11 +55,6 @@
 			name: 'Venue Lights'
 		}
 	];
-
-	function handleImgSrcError(event: any) {
-		event.target.onerror = null;
-		event.target.src = '/img/placeholder.webp';
-	}
 </script>
 
 <div class="w-full px-4 md:px-0 mx-auto md:my-14 my-7">
@@ -68,7 +63,7 @@
 			Our Services
 		</h2>
 		<div class="flex flex-wrap gap-6 justify-center-safe items-center">
-			{#each services as s}
+			{#each services as s (s.name)}
 				<div
 					class="md:h-64 h-40 md:w-80 w-full grid md:grid-rows-[70%_1fr] grid-rows-[75%_1fr] rounded-xl border border-slate-300 overflow-hidden bg-slate-100"
 				>

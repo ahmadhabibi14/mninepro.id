@@ -1,9 +1,9 @@
 <script lang="ts">
-	import Image from "@/components/Image.svelte";
-	import Head from "@/partials/Head.svelte";
-	import { PathServices } from "@/states/page";
+	import Image from '@/components/Image.svelte';
+	import Head from '@/partials/Head.svelte';
+	import { PathServices } from '@/states/page';
 
-  const services: { img: string; name: string }[] = [
+	const services: { img: string; name: string }[] = [
 		{
 			img: '/img/services/sound-system.webp',
 			name: 'Sound System'
@@ -57,20 +57,12 @@
 			name: 'Venue Lights'
 		}
 	];
-
-	function handleImgSrcError(event: any) {
-		event.target.onerror = null;
-		event.target.src = '/img/placeholder.webp';
-	}
 </script>
 
-<Head
-  title="Layanan"
-  path={PathServices}
-/>
+<Head title="Layanan" path={PathServices} />
 
 <div class="min-h-[900px] w-full flex flex-col gap-7 md:gap-10">
-  <div class="relative min-h-[200px] md:min-h-[300px] z-1 bg-black" role="banner">
+	<div class="relative min-h-[200px] md:min-h-[300px] z-1 bg-black" role="banner">
 		<div class="absolute w-full h-full bg-black/60 backdrop-blur-[2px] z-3"></div>
 		<img
 			src="/img/lighting-concert-confetti.png"
@@ -88,9 +80,9 @@
 		</div>
 	</div>
 
-  <div class="container max-w-6xl mx-auto flex mt-6 mb-14 px-4 md:px-0">
-    <div class="flex flex-wrap gap-6 justify-center-safe items-center">
-			{#each services as s}
+	<div class="container max-w-6xl mx-auto flex mt-6 mb-14 px-4 md:px-0">
+		<div class="flex flex-wrap gap-6 justify-center-safe items-center">
+			{#each services as s (s.name)}
 				<div
 					class="md:h-64 h-40 md:w-80 w-full grid md:grid-rows-[70%_1fr] grid-rows-[75%_1fr] rounded-xl border border-slate-300 overflow-hidden bg-slate-100"
 				>
@@ -106,5 +98,5 @@
 				</div>
 			{/each}
 		</div>
-  </div>
+	</div>
 </div>

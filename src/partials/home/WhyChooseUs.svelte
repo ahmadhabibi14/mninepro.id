@@ -38,9 +38,9 @@ melaksanakan tugas dengan penuh tanggung jawab.`,
 	<div class="flex flex-col gap-11">
 		<h2 class="md:text-5xl text-3xl text-center font-bold font-poppins">Why Choose Us</h2>
 		<div class="grid grid-rows-3 md:grid-rows-1 md:grid-cols-3 gap-6">
-			{#each contents as content}
+			{#each contents as content (content.title)}
 				<div
-					class="odd:bg-mnine-2 even:bg-black text-white rounded-xl flex flex-col gap-3 px-4 py-4"
+					class="odd:bg-mnine-2 even:bg-black text-white rounded-xl flex flex-col gap-3 p-6"
 				>
 					<Icon src={content.icon} size="45" className="" />
 					<h3 class="text-xl font-bold font-poppins">{content.title}</h3>

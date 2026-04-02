@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import Head from '../partials/Head.svelte';
 	import { Icon } from 'svelte-icons-pack';
 	import { RiArrowsArrowRightLine } from 'svelte-icons-pack/ri';
@@ -16,7 +17,7 @@
 					<h1 class="text-mnine font-bold text-9xl">404</h1>
 					<p class="text-2xl">Halaman tidak ditemukan</p>
 					<a
-						href="/"
+						href={resolve('/')}
 						class="py-2 px-4 bg-mnine hover:bg-mnine-2 text-white rounded-xl flex flex-row gap-2 items-center justify-center"
 					>
 						<span>Kembali ke beranda</span>

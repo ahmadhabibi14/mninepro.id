@@ -3,9 +3,10 @@
 	export let imgAlt: string = 'Concert, pink confetti';
 	export let title: string = 'Tentang Kami';
 
-	function handleImgSrcError(event: any) {
-		event.target.onerror = null;
-		event.target.src = '/img/placeholder.webp';
+	function handleImgSrcError(event: Event): void {
+		const target = event.currentTarget as HTMLImageElement;
+		target.onerror = null;
+		target.src = '/img/placeholder.webp';
 	}
 </script>
 

@@ -1,24 +1,24 @@
 @import 'tailwindcss';
 
 @theme {
-  --color-mnine: #F58634;
-  --color-mnine-2: #E0680F;
+	--color-mnine: #f58634;
+	--color-mnine-2: #e0680f;
 
-  --font-poppins: "Orbitron Variable", "sans-serif";
-  --font-poppins: "Poppins", "sans-serif";
+	--font-poppins: 'Orbitron Variable', 'sans-serif';
+	--font-poppins: 'Poppins', 'sans-serif';
 }
 
 html {
-  @apply font-poppins;
+	@apply font-poppins;
 }
 
 *::selection {
-  @apply bg-mnine text-white; 
+	@apply bg-mnine text-white;
 }
 
 #nprogress {
-  pointer-events: none;
+	pointer-events: none;
 }
 #nprogress .bar {
-  @apply bg-mnine! fixed! z-100! top-0! left-0! w-full! h-[3px]!;
+	@apply bg-mnine! fixed! z-100! top-0! left-0! w-full! h-[3px]!;
 }
